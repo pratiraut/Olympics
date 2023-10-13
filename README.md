@@ -43,6 +43,10 @@ FROM olympics_history
 ORDER BY year;
 ```
 
+### Entity Relationship Diagram (ERD)
+
+An Entity Relationship Diagram (ERD) is a snapshot of data structures. An Entity Relationship Diagram shows entities (tables) in a database and relationships between tables within that database. In other words, How olympics_history is joined to olympics_history_noc_region.
+
 1. Total no of sports played in each Olympic games.
 
 ```sql
