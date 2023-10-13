@@ -15,8 +15,12 @@ I came across this dataset Kaggle website which has a historical dataset on the 
 - Which nation has participated in all of the Olympic games?
 - Which Sports were played only once in the Olympics?
 
-
-### Exploring a database by identifying the tables and the foreign keys that link them.
+## Process
+- Data Understanding
+- Entity Relationship Diagram
+- SQL queries
+   
+### Data Understanding 
 
 ```sql
 SELECT *
@@ -35,6 +39,10 @@ SELECT COUNT(DISTINCT games)
 FROM olympics_history;
 ```
 
+Output - 
+
+![ol](https://github.com/pratiraut/Olympics/assets/146583441/812d495b-6cef-4385-bbaf-742122c51305)
+
 All the Olympic games are held in which city.
 
 ```sql
@@ -47,6 +55,12 @@ ORDER BY year;
 
 An Entity Relationship Diagram (ERD) is a snapshot of data structures. An Entity Relationship Diagram shows entities (tables) in a database and relationships between tables within that database. In other words,
 Identifying the tables and the foreign keys that join tables to understand how they're related.
+
+![ERD](https://github.com/pratiraut/Olympics/assets/146583441/f2c36b93-02d7-44fd-af3b-aabf4722b50a)
+
+### SQL queries 
+
+writhing a SQL query to find out the given problem statement.
 
 1. Total no of sports played in each Olympic games.
 
@@ -98,6 +112,11 @@ with tot_games as
       order by 1;
 ```
 
+Output - 
+
+![olym](https://github.com/pratiraut/Olympics/assets/146583441/ef071379-8cef-4c6d-9f68-cc2aa8cb1856)
+
+
 4. Which Sports were played only once in the Olympics?
 
 ```sql
@@ -115,3 +134,11 @@ WITH t1 AS
       WHERE t2.no_of_games = 1
       ORDER BY t1.sport;
 ```
+
+Output - 
+
+![olymp](https://github.com/pratiraut/Olympics/assets/146583441/e4fa8905-a228-43b6-845d-72aa11e27fb3)
+
+## Conclusion and Recomandation
+
+
