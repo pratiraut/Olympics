@@ -45,7 +45,8 @@ ORDER BY year;
 
 ### Entity Relationship Diagram (ERD)
 
-An Entity Relationship Diagram (ERD) is a snapshot of data structures. An Entity Relationship Diagram shows entities (tables) in a database and relationships between tables within that database. In other words, How olympics_history is joined to olympics_history_noc_region.
+An Entity Relationship Diagram (ERD) is a snapshot of data structures. An Entity Relationship Diagram shows entities (tables) in a database and relationships between tables within that database. In other words,
+Identifying the tables and the foreign keys that join tables to understand how they're related.
 
 1. Total no of sports played in each Olympic games.
 
