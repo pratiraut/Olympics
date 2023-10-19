@@ -76,7 +76,7 @@ writhing a SQL query to find out the given problem statement.
   ORDER BY no_of_sports DESC;
 ```
 
-Output : [Downlode here]()
+Output : [Downlode here](No of Sports.csv)
 
 
 2. Total no of nations who participated in each Olympic game?
@@ -94,7 +94,7 @@ WITH all_countries AS
     ORDER BY games;
 ```
 
-Output : [downlode here]()
+Output : [downlode here](total countries.csv)
 
 3. Which nation has participated in all of the Olympic games?
 
