@@ -76,6 +76,9 @@ writhing a SQL query to find out the given problem statement.
   ORDER BY no_of_sports DESC;
 ```
 
+Output : [Downlode here]()
+
+
 2. Total no of nations who participated in each Olympic game?
 
 ```sql
@@ -90,6 +93,8 @@ WITH all_countries AS
     GROUP BY games
     ORDER BY games;
 ```
+
+Output : [downlode here]()
 
 3. Which nation has participated in all of the Olympic games?
 
