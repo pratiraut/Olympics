@@ -146,4 +146,12 @@ Output -
 
 ## Conclusion and Recomandation
 
+1. 204 countries participated in the summer of 2016.
+2. 203 countries participated in the summer of 2012.
+3. 202 countries participated in the summer of 2008.
+ we can see trends over here that the maximum no of countries participating increased over the years and also summer participation is more as compared to the winters.
+
+There are some games only played once in the Olympic games which are Rugby servers, Roque Racquets, motorboating, etc.
+
+Cricket was played once in the summer of 1900.
 
